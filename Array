@@ -6,10 +6,11 @@ import java.util.Collections;
 
 public class Main {
     public static void main(String[] args) {
+//Create array with all days of the week 
         String[] weekDays = {"Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"};
-
+    
         System.out.println("Full week days"+"\n");
-
+//Print weekdays
         System.out.println(weekDays[0]);
         System.out.println(weekDays[1]);
         System.out.println(weekDays[2]);
@@ -18,7 +19,7 @@ public class Main {
         System.out.println(weekDays[5]);
         System.out.println(weekDays[6]);
         System.out.println();
-
+//Copy full weekdays except for Sunday and Saturday to a new array and print
         System.out.println("Just weekdays"+"\n");
         String[] weekOnly = Arrays.copyOfRange(weekDays, 1, 6);
         System.out.println(weekOnly[0]);
