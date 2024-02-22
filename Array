@@ -1,0 +1,33 @@
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
+import java.util.Arrays;
+import java.util.Collections;
+
+public class Main {
+    public static void main(String[] args) {
+        String[] weekDays = {"Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"};
+
+        System.out.println("Full week days"+"\n");
+
+        System.out.println(weekDays[0]);
+        System.out.println(weekDays[1]);
+        System.out.println(weekDays[2]);
+        System.out.println(weekDays[3]);
+        System.out.println(weekDays[4]);
+        System.out.println(weekDays[5]);
+        System.out.println(weekDays[6]);
+        System.out.println();
+
+        System.out.println("Just weekdays"+"\n");
+        String[] weekOnly = Arrays.copyOfRange(weekDays, 1, 6);
+        System.out.println(weekOnly[0]);
+        System.out.println(weekOnly[1]);
+        System.out.println(weekOnly[2]);
+        System.out.println(weekOnly[3]);
+        System.out.println(weekOnly[4]);
+
+
+
+        }
+    }
